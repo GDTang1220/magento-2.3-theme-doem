@@ -2,7 +2,7 @@
 
 ## About and purpose
 
-**Optimus** is a free and home-made Magento 2 theme, developed by [Studio Emma](http://www.studioemma.com) . Its purpose is providing a starting point for the development of our own client projects. It's a solid base to extend the Magento 2 Blank theme with functionality & styling without breaking future upgrades. It is continuously being worked on, both refined and expanded. All added changes and new features are extends; we try to stay away from overrides until there is absolutely no other way possible.
+**Optimus** is a free and home-made Magento 2 theme, developed by [Studio Emma](http://www.2023hk.com) . Its purpose is providing a starting point for the development of our own client projects. It's a solid base to extend the Magento 2 Blank theme with functionality & styling without breaking future upgrades. It is continuously being worked on, both refined and expanded. All added changes and new features are extends; we try to stay away from overrides until there is absolutely no other way possible.
 
 It comprises of the following:
 
@@ -14,7 +14,7 @@ Optimus works with Magento 2, starting from the initial 2.0.0 BETA all the way u
 
 ## Demo
 
-[Demo available](http://magento2.optimus.studioemma.com/) with a list of [extra features](http://magento2.optimus.studioemma.com/content). (Note: this is a base theme and it is does not look pretty by itself.)
+[Demo available](http://magento2.optimus.2023hk.com/) with a list of [extra features](http://magento2.optimus.2023hk.com/content). (Note: this is a base theme and it is does not look pretty by itself.)
 
 ## Module-core
 This module contains a lot of handy helper functions:
@@ -55,7 +55,7 @@ mv composer.phar /usr/local/bin/composer
 After installing composer, use the following commands to install Optimus to your Magento 2 installation:
 
 ```
-composer require studioemma/magento2-theme-optimus
+composer require 2023hk/magento-2.3-theme-demo
 ```
 
 After installing "Studio Emma Mase 2 Optimus" theme, you can verify that the installation succeeded by going to the Magento 2 back-end and navigating to **Content -> Design -> Themes**. If it listed there, you should be happy.
@@ -63,12 +63,12 @@ After installing "Studio Emma Mase 2 Optimus" theme, you can verify that the ins
 Normally, this theme will never be set as a the main theme for a client, but to set this theme for development purposes on the storefront, go to: **Content -> Design -> Configuration** and set the Optimus theme on the Store View you wish to use. Do not forget to flush the cache afterwards.
 
 ### Using Optimus as the base theme for your own client theme
-A client project will inherit from the Optimus theme. To do this, set the theme.xml of your own client's theme inside the client's package to inherit from Studioemma/optimus.
+A client project will inherit from the Optimus theme. To do this, set the theme.xml of your own client's theme inside the client's package to inherit from 2023hk/demo.
 
 ```
 <theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/Config/etc/theme.xsd">
     <title>Own client name - Own theme name</title>
-    <parent>Studioemma/optimus</parent>
+    <parent>2023hk/demo</parent>
     <media>
         <preview_image>media/preview.jpg</preview_image>
     </media>

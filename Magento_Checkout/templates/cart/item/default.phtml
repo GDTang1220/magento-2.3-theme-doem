@@ -92,7 +92,7 @@ $canApplyMsrp = $helper->isShowBeforeOrderConfirm($product) && $helper->isMinima
                 </label>
                 <div class="control qty">
                     <?php
-                        $selectHtml = $block->getLayout()->createBlock('StudioEmma\Optimus\Block\Checkout\Cart\SelectQty')->setQty($block->getQty())->setTemplate('StudioEmma_Optimus::checkout/cart/select-qty.phtml')->toHtml();
+                        $selectHtml = $block->getLayout()->createBlock('2023hk\demo\Block\Checkout\Cart\SelectQty')->setQty($block->getQty())->setTemplate('2023hk_demo::checkout/cart/select-qty.phtml')->toHtml();
                         if (!empty($selectHtml)) {
                             echo $selectHtml;
                         }

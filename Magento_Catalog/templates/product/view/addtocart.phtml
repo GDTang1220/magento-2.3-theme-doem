@@ -18,7 +18,7 @@
             <label class="label" for="qty"><span><?= /* @escapeNotVerified */ __('Qty') ?></span></label>
             <div class="control">
                 <?php
-                    $selectHtml = $block->getLayout()->createBlock('StudioEmma\Optimus\Block\Checkout\Cart\SelectQty')->setQty($block->getProductDefaultQty())->setTemplate('StudioEmma_Optimus::checkout/cart/select-qty.phtml')->toHtml();
+                    $selectHtml = $block->getLayout()->createBlock('2023hk\demo\Block\Checkout\Cart\SelectQty')->setQty($block->getProductDefaultQty())->setTemplate('2023hk_demo::checkout/cart/select-qty.phtml')->toHtml();
                     if (!empty($selectHtml)) {
                         echo $selectHtml;
                     }

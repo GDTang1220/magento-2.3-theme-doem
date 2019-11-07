@@ -12,7 +12,7 @@
             Add the catalog menu to the homepage content block (first item by default), but only visible for small screen users (mobile). This is to ensure people have a quick overview of the shop's catalog without having to go to the menu first.
             The wrapper and small screen only class is set through the xml container tag.
             -->
-            <block class="StudioEmma\Optimus\Block\Navigation" name="category_listing_home" as="category_listing_home" template="Magento_Catalog::navigation/category-listing.phtml">
+            <block class="2023hk\demo\Block\Navigation" name="category_listing_home" as="category_listing_home" template="Magento_Catalog::navigation/category-listing.phtml">
                 <arguments>
                     <argument name="css_class" xsi:type="string">mobile-nav-homepage show-xs</argument>
                     <argument name="title" translate="true" xsi:type="string">Discover our catalog</argument>
