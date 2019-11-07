@@ -1,0 +1,17 @@
+{
+    "name": "2023hk/magento-2.3-theme-demo",
+    "description": "2023HK Demo Theme",
+    "require": {
+        "magento/theme-frontend-blank": ">=100.0.0",
+        "studioemma/magento2-module-optimus": ">=2.0.23"
+    },
+    "type": "magento2-theme",
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
